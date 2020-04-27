@@ -1,15 +1,14 @@
-//performing  a tax
-function greet(name, lastname) {
-    console.log("Hello ",name, lastname);
+function divide(num1, num2){
+    let result = num1/num2;
+    return result/2;
 }
-//calculating
-function square(number){
-
-  return number*number;
+function multiply(num1, num2){
+    console.log("The Product of "+num1+" and "+num2+" is: "+num1*num2);
 }
-function multiply(number1, number2){
-    return number1*number2;
+function random(name, age){
+    let result = name.length * age;
+    console.log("Name: "+name+" \nAge: "+age+"\nNumber of characters in your name: "+name.length+" \nName * Age:"+result);
 }
-greet("Harjot","Singh");
-let sum = square(5) + multiply(2,5);
-console.log(sum)
+//console.log(divide(5,10));
+//multiply(5,6);
+random("Harjot",21);
